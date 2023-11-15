@@ -1,0 +1,33 @@
+{
+	"id": "30ba6c6d-ce44-4f2f-8fb6-51a6bc12f0b5",
+	"values": [
+		{
+			"key": "login",
+			"value": "elinaaa",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "password",
+			"value": "pass",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "email",
+			"value": "skolaskolenkoelina@gmail.com",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "id",
+			"value": "5",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"name": "Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2023-06-28T20:31:04.875Z",
+	"_postman_exported_using": "Postman/10.15.4"
+}

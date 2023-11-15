@@ -1,0 +1,366 @@
+{
+	"id": "3ba71215-67a4-4af2-956b-3ead42230add",
+	"name": "Library",
+	"timestamp": "2023-07-02T17:01:41.047Z",
+	"collection_id": "28243669-ef21c4a9-faaa-4449-8a07-a7ce3b36ebe9",
+	"folder_id": 0,
+	"environment_id": "28243669-c2e23ffc-7036-4952-9dc3-bda2d359d649",
+	"totalPass": 24,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-07-02T17:01:38.810Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "7a23e7b5-7c87-4eb9-be9b-668ec4efe658",
+			"name": "Registration",
+			"url": "https://stage2.thinklikebug.com/rest/users",
+			"time": 1006,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Response time is less than 3000ms": true,
+				"Register user": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 3000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Register user": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1006
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Response time is less than 3000ms": true,
+					"Register user": true
+				}
+			]
+		},
+		{
+			"id": "bc1cd703-4c86-4b24-acb5-4f78b89d390b",
+			"name": "Login",
+			"url": "https://stage2.thinklikebug.com/rest/auth/login",
+			"time": 48,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 3000ms": true,
+				"User profile": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 3000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"User profile": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				48
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 3000ms": true,
+					"User profile": true
+				}
+			]
+		},
+		{
+			"id": "c8586dd7-1881-48cb-a4fb-571a94a8ad35",
+			"name": "Adds books",
+			"url": "https://stage2.thinklikebug.com/rest/books",
+			"time": 50,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Response time is less than 3000ms": true,
+				"Add book": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 3000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Add book": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				50
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Response time is less than 3000ms": true,
+					"Add book": true
+				}
+			]
+		},
+		{
+			"id": "9fe7d0d0-21d6-4a06-9e72-44150179be22",
+			"name": "Gets list",
+			"url": "https://stage2.thinklikebug.com/rest/books",
+			"time": 50,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 3000ms": true,
+				"Get books": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 3000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get books": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				50
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 3000ms": true,
+					"Get books": true
+				}
+			]
+		},
+		{
+			"id": "812b53b1-ff20-4478-b21d-33b1729d172b",
+			"name": "Gets list (by title)",
+			"url": "https://stage2.thinklikebug.com/rest/books/title/{title}",
+			"time": 48,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 3000ms": true,
+				"Gets list (by title)": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 3000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Gets list (by title)": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				48
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 3000ms": true,
+					"Gets list (by title)": true
+				}
+			]
+		},
+		{
+			"id": "8ad474d3-aa20-48ec-ab7e-a39777657e89",
+			"name": "Gets list (by author)",
+			"url": "https://stage2.thinklikebug.com/rest/books/author/{author}",
+			"time": 52,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 3000ms": true,
+				"Gets list (by author)": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 3000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Gets list (by author)": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				52
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 3000ms": true,
+					"Gets list (by author)": true
+				}
+			]
+		},
+		{
+			"id": "93a42a3d-9bd7-44e0-ba43-0c9975681661",
+			"name": "Delete book id",
+			"url": "https://stage2.thinklikebug.com/rest/books/123",
+			"time": 51,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 3000ms": true,
+				"Delete book": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 3000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Delete book": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				51
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 3000ms": true,
+					"Delete book": true
+				}
+			]
+		},
+		{
+			"id": "91cf8c84-cb2c-4010-9adb-e0f531cbf665",
+			"name": "Delete User",
+			"url": "https://stage2.thinklikebug.com/rest//users/elinaaa",
+			"time": 59,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 3000ms": true,
+				"Delete book": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 3000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Delete book": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				59
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 3000ms": true,
+					"Delete book": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1364,
+	"collection": {
+		"requests": [
+			{
+				"id": "7a23e7b5-7c87-4eb9-be9b-668ec4efe658",
+				"method": "POST"
+			},
+			{
+				"id": "bc1cd703-4c86-4b24-acb5-4f78b89d390b",
+				"method": "POST"
+			},
+			{
+				"id": "c8586dd7-1881-48cb-a4fb-571a94a8ad35",
+				"method": "POST"
+			},
+			{
+				"id": "9fe7d0d0-21d6-4a06-9e72-44150179be22",
+				"method": "GET"
+			},
+			{
+				"id": "812b53b1-ff20-4478-b21d-33b1729d172b",
+				"method": "GET"
+			},
+			{
+				"id": "8ad474d3-aa20-48ec-ab7e-a39777657e89",
+				"method": "GET"
+			},
+			{
+				"id": "93a42a3d-9bd7-44e0-ba43-0c9975681661",
+				"method": "DELETE"
+			},
+			{
+				"id": "91cf8c84-cb2c-4010-9adb-e0f531cbf665",
+				"method": "DELETE"
+			}
+		]
+	}
+}
